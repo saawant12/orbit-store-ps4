@@ -1,6 +1,6 @@
 # Save your Browse and Add-ons filters
 
-**For Orbit Store 0.1.0 for PS4.**
+**For Orbit Store 0.2.0 for PS4.**
 
 Choose your filters, search and sort order in **Browse**, then open **Saved filters**. Enter a name and choose **Save filters**. Select a saved entry later to apply it again in one go. Saved filters include your **Genre** choices.
 

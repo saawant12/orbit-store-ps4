@@ -2,7 +2,7 @@
 
 Use **Orbit Zero on your computer** to start Orbit on your PS4 over your home network. Your computer handles online downloads and sends the files to the PS4. **The PS4 can keep its internet access blocked throughout setup and use.**
 
-This guide covers **Orbit Zero 1.9.6** with **Orbit Store for PS4 0.0.2** or later. Get Orbit Zero from the [latest release](https://github.com/saawant12/orbit-store-ps4/releases/latest) and follow [Install Orbit Zero](orbit-zero-installation.md) first.
+This guide covers **Orbit Zero 1.9.7** with **Orbit Store for PS4 0.0.2** or later. Get Orbit Zero from the [latest release](https://github.com/saawant12/orbit-store-ps4/releases/latest) and follow [Install Orbit Zero](orbit-zero-installation.md) first.
 
 ## What you need
 

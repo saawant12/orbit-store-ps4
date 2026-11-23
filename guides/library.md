@@ -1,6 +1,6 @@
 # Your Library and storage
 
-**For Orbit Store 0.1.0 for PS4.** Library is in the TV app, the browser and [Orbit Zero](orbit-zero.md) on a computer paired with the PS4. All three show the same PS4 games and drives. Store, Crossbar, Cinema and Panorama show it in different layouts; changing [appearance](appearance.md) doesn’t change which games are installed.
+**For Orbit Store 0.2.0 for PS4.** Library is in the TV app, the browser and [Orbit Zero](orbit-zero.md) on a computer paired with the PS4. All three show the same PS4 games and drives. Store, Crossbar, Cinema and Panorama show it in different layouts; changing [appearance](appearance.md) doesn’t change which games are installed.
 
 Library shows the games installed on your PS4. Orbit reads them from the console itself; you don’t need ShadowMount or any other tool. It works independently of your download-source choices.
 
@@ -42,6 +42,8 @@ Library and drive information refresh by themselves. Game sizes show **Measuring
 
 Open **Library → Files** to check free space and manage files and folders on internal storage and USB drives. Select a folder to open it; Circle goes back one folder. See the [Files guide](files.md).
 
-Orbit doesn’t start, uninstall, copy or move installed games. Uninstall games from the PS4 home screen. Downloads and Library are separate: a finished download isn’t a promise that the game is installed or ready to play.
+**Requires 0.2.0 or later.** Select **Free up space** in Library to make room on a drive. Orbit lists its own leftovers, ticked for you, and the games installed on that drive for you to choose; it uninstalls a game only when you tick it. Saves are not touched. See [Free up space](downloads.md#free-up-space).
+
+Orbit doesn’t start, copy or move installed games, and uninstalls one only through **Free up space**. You can also uninstall games from the PS4 home screen. Downloads and Library are separate: a finished download isn’t a promise that the game is installed or ready to play.
 
 [Getting started](getting-started.md) · [Downloads](downloads.md) · [Files](files.md) · [Troubleshooting](troubleshooting.md)

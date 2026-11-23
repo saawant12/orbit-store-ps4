@@ -1,6 +1,6 @@
 # When something needs attention
 
-**For Orbit Store 0.1.0 for PS4.** Settings paths below use the default Store layout. In Crossbar, Cinema and Panorama, the main menu is called **Settings**; see [Find settings after switching](appearance.md#find-settings-after-switching).
+**For Orbit Store 0.2.0 for PS4.** Settings paths below use the default Store layout. In Crossbar, Cinema and Panorama, the main menu is called **Settings**; see [Find settings after switching](appearance.md#find-settings-after-switching).
 
 ## Opening and updating Orbit
 
@@ -36,7 +36,7 @@ Check **App settings → Downloads → Automatic PS4 shutdown**, or **Settings �
 
 ### The selected drive is too small
 
-Check free space and queued work in the download options. Archives need room for the archive and the unpacked files together while they’re unpacked, and installing needs extra console storage. Choose another drive before starting, or free up space and resume. From 0.1.0, an archive that has no room to unpack waits, paused, with **Not enough free space to unpack this download.** Its archive is kept; free up space on its drive, then select **Resume**. If Orbit Zero still has the computer copy, use **Change drive** on that download to send it to another PS4 drive without downloading it again.
+Check free space and queued work in the download options. From **0.2.0**, select **Free up space** to let Orbit delete its own leftovers or games you choose, then start the download; see [Free up space](downloads.md#free-up-space). Archives need room for the archive and the unpacked files together while they’re unpacked, and installing needs extra console storage. Choose another drive before starting, or free up space and resume. From 0.1.0, an archive that has no room to unpack waits, paused, with **Not enough free space to unpack this download.** Its archive is kept; select **Free up space** on the download or make room on its drive yourself, then select **Resume**. If Orbit Zero still has the computer copy, use **Change drive** on that download to send it to another PS4 drive without downloading it again.
 
 ## Finding and downloading games
 
@@ -57,7 +57,7 @@ If it keeps happening, check the PS4’s internet access and save a diagnostic r
 - **Provider returned a page:** retry from Downloads. For Vikingfile and AkiraBox, repeat the provider step. Orbit never saves an error or verification page as your file.
 - **Provider throttling:** let the retry wait finish. Orbit follows the provider’s requested wait.
 - **Drive disconnected:** reconnect the same drive. Orbit recognises it after it’s mounted again, using its saved marker or the download’s own partial file. Keep those files and select **Resume**. Orbit never switches to a different drive by itself.
-- **Not enough space:** free space on the chosen drive, counting unfinished downloads, then retry.
+- **Not enough space:** select **Free up space** to delete Orbit’s leftovers or games you choose, or free space on the chosen drive yourself, counting unfinished downloads, then retry.
 - **Source changed:** keep the partial until you decide whether to remove it and start again. Orbit won’t add a different file onto it.
 - **Partial file deleted or empty:** choose **Retry**. Orbit starts that download again from the beginning on the same drive.
 

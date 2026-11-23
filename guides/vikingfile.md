@@ -1,6 +1,6 @@
 # Use a Vikingfile account
 
-**For Orbit Store 0.1.0 for PS4.**
+**For Orbit Store 0.2.0 for PS4.**
 
 Vikingfile identifies an account with an **account hash**: the private code it gives you instead of an email and password. Treat it like a password and don’t include it in issues, screenshots or diagnostic reports.
 

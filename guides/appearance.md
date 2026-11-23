@@ -1,6 +1,6 @@
 # Choose your Orbit interface
 
-**For Orbit Store 0.1.0 for PS4.** Orbit offers four interfaces: **Store**, **Crossbar**, **Cinema** and **Panorama**, in the TV app, the browser and [Orbit Zero](orbit-zero.md). Each changes the layout and navigation while keeping your catalogue, favourites and download queue. Library, Files, Add-ons and saved filters are in all four.
+**For Orbit Store 0.2.0 for PS4.** Orbit offers four interfaces: **Store**, **Crossbar**, **Cinema** and **Panorama**, in the TV app, the browser and [Orbit Zero](orbit-zero.md). Each changes the layout and navigation while keeping your catalogue, favourites and download queue. Library, Files, Add-ons and saved filters are in all four.
 
 ## Switch interfaces
 

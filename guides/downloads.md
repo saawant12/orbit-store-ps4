@@ -1,6 +1,6 @@
 # Find and download a game
 
-**For Orbit Store 0.1.0 for PS4.** The catalogue has **1,734 PS4 games** with **1,851 single-file download options** from Archive.org, Vikingfile and AkiraBox. Open a game to choose from its sources and formats. What you see depends on which sources you turn on.
+**For Orbit Store 0.2.0 for PS4.** The catalogue has **1,739 PS4 games** with **1,856 single-file download options** from Archive.org, Vikingfile and AkiraBox. Open a game to choose from its sources and formats. What you see depends on which sources you turn on.
 
 Settings paths in this guide use the Store layout. Crossbar, Cinema and Panorama call the main menu **Settings**; see [Appearance](appearance.md#find-settings-after-switching).
 
@@ -10,7 +10,7 @@ Settings paths in this guide use the Store layout. Crossbar, Cinema and Panorama
 
 ![Orbit Store 0.0.1 Discover on PS4 with BioShock Infinite: The Complete Edition selected](../assets/0.0.1/store-discover.jpg)
 
-Switch to **Browse** for search and filters. It sorts by **Release date (newest first)**; games without a date follow alphabetically. Search by game name or title ID, filter by source, format, genre, tag, region or download size, and change the sort order. **Reset filters** goes back to the defaults. Source and Format allow several choices. **Installed games** hides games already installed on the PS4.
+Switch to **Browse** for search and filters. It sorts by **Release date (newest first)**; games without a date follow alphabetically. Search by game name or title ID, filter by source, format, genre, tag, region or download size, and change the sort order. From 0.2.0, **Recently added** shows the games added to the catalogue most recently first. **Reset filters** goes back to the defaults. Source and Format allow several choices. **Installed games** hides games already installed on the PS4.
 
 ### Genres and filter counts
 
@@ -128,9 +128,15 @@ TorBox uses at most eight connections per game, even when you choose more. With 
 
 Orbit remembers whether you chose **Direct** or **TorBox**. In **App settings → Sources & accounts → TorBox**, turn on **Always use TorBox** to use it for new downloads. Your account and the selected source must support the request. Turn this preference off before choosing Direct; Orbit doesn’t silently switch a TorBox request to the original source. Orbit Zero and the PS4 keep their own preferences.
 
+## Download from your own links
+
+**Requires 0.2.0 or later.** To download files that aren’t in the catalogue, open **Downloads** and select **Download from links**. Paste direct download links that start with `https://`, one per line, up to 20 at a time, and choose a drive. Orbit checks each link before adding it to Downloads, where it pauses, resumes and retries like a game. ZIP, 7z and RAR files unpack like games. Long links are easier to paste from a paired phone or computer.
+
+If a link stops working, for example because it expired, select **Replace link** on that download and paste a fresh link to the same file. Orbit keeps the part already downloaded and carries on; a link to a different file is refused and the partial file is kept. Orbit Zero offers the same in Transfers; your PS4 downloads the files itself.
+
 ## ZIP, RAR and 7z downloads
 
-Archive options are in the normal Format filter. Their size is the archive size. From 0.1.0, a ZIP, 7z or RAR download needs room only for itself when you add it. Orbit checks for room for the unpacked files just before unpacking; if there isn’t enough, the download waits, paused, with the archive kept. Free up space on its drive, then select **Resume**. Multipart archives aren’t supported.
+Archive options are in the normal Format filter. Their size is the archive size. From 0.1.0, a ZIP, 7z or RAR download needs room only for itself when you add it. Orbit checks for room for the unpacked files just before unpacking; if there isn’t enough, the download waits, paused, with the archive kept. Select [Free up space](#free-up-space) on the download, or make room on its drive yourself, then select **Resume**. Multipart archives aren’t supported.
 
 Orbit unpacks on the selected PS4 drive after downloading. Orbit Zero unpacks on the computer first, then sends the unpacked files to your PS4 drive. Follow the **Extracting** progress in Downloads. Orbit tries the known source passwords by itself (`DLPSGAME.COM`, `[DLPSGAME.COM]`, `SuperPSX`, `www.DLPSGAME.COM`, `downloadgameps3.com`, `hako` and `pippo`). If another password is needed, choose **Enter archive password**, then **Retry extraction**; Orbit reuses the downloaded archive.
 
@@ -207,7 +213,16 @@ Orbit Zero also keeps a copy in the computer’s download folder unless you turn
 
 Check the space estimate before starting. Orbit prefers your default drive while it has room; otherwise it suggests another drive with more space. A drive you chose yourself is never swapped silently. While an archive is unpacked, it and its files need space at the same time; Orbit checks for that room just before unpacking (see [ZIP, RAR and 7z downloads](#zip-rar-and-7z-downloads)). Installing needs space on the PS4 too.
 
-Orbit Zero shows each PS4 drive’s free space and the space left after queued transfers, blocks a drive known to be too small and checks the computer’s space too. For a Zero transfer already in the queue, [Change drive](orbit-zero.md#change-the-ps4-drive) reuses the computer copy.
+### Free up space
+
+**Requires 0.2.0 or later.** When a game doesn’t fit on its drive, **Download** no longer stays greyed out. It opens **Not enough space**, which lists what Orbit could delete from that drive to make room, biggest first:
+
+- **Left by Orbit** is ticked for you: packages your PS4 has already installed, archives kept after unpacking and downloads you cancelled.
+- **Games** lists the games installed on that drive for you to choose; none is ticked. Orbit uninstalls a game you tick, as from the PS4 home screen. USB drives list no games, and homebrew apps and Orbit itself are never listed.
+
+Select **Delete and download**. Orbit deletes what you picked one at a time, says how much it freed, then starts the download. Saves are not touched. If Orbit kept the package of a game you uninstalled, **Install** is offered for it in **Downloads** again. **Free up space** is also in Library and on a download that paused because there wasn’t room to unpack it.
+
+Orbit Zero shows each PS4 drive’s free space and the space left after queued transfers, offers **Free up space** for a drive known to be too small and checks the computer’s space too. It first checks that the download can start, so nothing is deleted for a download that can’t. For a Zero transfer already in the queue, [Change drive](orbit-zero.md#change-the-ps4-drive) reuses the computer copy.
 
 ## Get new games and corrected details
 

@@ -4,7 +4,7 @@
 
 Orbit runs on your PS4. Pick a game, choose its source and format, and Orbit downloads it straight to the console or a USB drive plugged into it, then installs it for you. Use it on your TV with a controller from the Games row, or pair a phone or computer to manage the same downloads over your home network.
 
-Explore **1,734 PS4 games** with **1,851 download options**, plus **564 DLCs and add-ons with 566 options across 125 games**. Choose your source and save to your preferred drive. New games, add-ons and corrected links arrive through catalogue updates.
+Explore **1,739 PS4 games** with **1,856 download options**, plus **564 DLCs and add-ons with 566 options across 125 games**. Choose your source and save to your preferred drive. New games, add-ons and corrected links arrive through catalogue updates.
 
 **[Orbit Zero](#orbit-zero-for-mac-windows-and-linux)** brings Orbit to Mac, Windows and Linux. Download games on your computer and send them to your PS4 straight away or later, without your PS4 needing internet access.
 
@@ -39,6 +39,8 @@ Explore **1,734 PS4 games** with **1,851 download options**, plus **564 DLCs and
 **Download**
 
 - **Get everything.** On a game’s page, add the game, its newest update and every DLC Orbit has for it to Downloads in one go. They install in order: the game, then the update, then the DLC. [Guide](guides/downloads.md#get-everything)
+- **Free up space.** When a game doesn’t fit, Orbit lists its own leftovers and the games installed on that drive, deletes what you pick, then starts the download. Saves are not touched. [Guide](guides/downloads.md#free-up-space)
+- **Download from your own links.** In Downloads, select **Download from links** and paste up to 20 direct links. If a link expires, **Replace link** carries on from where it stopped. [Guide](guides/downloads.md#download-from-your-own-links)
 - **One link per download.** PKG and FPKG, with ZIP, RAR and 7z archives unpacked automatically, or kept packed if you prefer. [Guide](guides/downloads.md#zip-rar-and-7z-downloads)
 - **Choose 1–64 connections per download**, with eight as the default. Active downloads share a limit of 64; TorBox uses at most four per game in Zero and eight on PS4. [Guide](guides/downloads.md#follow-your-queue)
 - **Filter for TorBox.** With your account connected, choose **Source → TorBox available** to find supported options.
@@ -155,7 +157,7 @@ In Orbit Zero’s Store interface, use the globe-shaped **Language** button in t
 
 ## Orbit Zero for Mac, Windows and Linux
 
-Orbit Zero is our desktop companion for Mac, Windows and Linux. [Download Orbit Zero](https://github.com/saawant12/orbit-store-ps4/releases/latest) (the `Orbit-Zero-1.9.6-*` files) and use it with Orbit Store 0.0.2 or later on your PS4.
+Orbit Zero is our desktop companion for Mac, Windows and Linux. [Download Orbit Zero](https://github.com/saawant12/orbit-store-ps4/releases/latest) (the `Orbit-Zero-1.9.7-*` files) and use it with Orbit Store 0.0.2 or later on your PS4.
 
 Download on your computer and send games to your PS4 over your home network. **Works over Wi-Fi or Ethernet. Your PS4 doesn’t need internet access for these downloads.**
 
@@ -164,7 +166,8 @@ Download on your computer and send games to your PS4 over your home network. **W
 - **Download now and send to PS4 later.** Choose **Save to → This computer** to keep a game on your computer. Connect your PS4 when ready, then select **Send to PS4** in Downloads. [See the steps](guides/orbit-zero.md#download-now-and-send-to-your-ps4-later)
 - **Choose where downloads run.** Use **Computer** to download through your computer, or **Prefer PS4** to let the PS4 download directly. For Vikingfile and AkiraBox, **Prefer PS4** hands the download link to your PS4 once the check passes on the computer.
 - **PS4 games only.** With a PS4 paired, Browse and Add-ons list PS4 games and add-ons only.
-- **Get everything and game updates.** As on the PS4, get a game with its update and DLC in one go, and update your games from Library. The PS4 downloads and installs them itself; needs Orbit Store 0.1.0. [Guide](guides/orbit-zero.md#get-everything-and-game-updates)
+- **Get everything and game updates.** As on the PS4, get a game with its update and DLC in one go, and update your games from Library. The PS4 downloads and installs them itself; needs Orbit Store 0.1.0 or later. [Guide](guides/orbit-zero.md#get-everything-and-game-updates)
+- **Free up space and download from links.** As on the PS4, Zero offers **Free up space** when a game doesn’t fit, and **Download from links** and **Replace link** in Transfers. Needs Orbit Store 0.2.0. [Guide](guides/orbit-zero.md#free-up-space-and-download-from-links)
 - **Follow each stage.** See the computer download, unpacking and PS4 transfer separately, with controls to pause, resume and reconnect.
 - **Install after transfer, or stream it.** Choose **Install on PS4** once a game or add-on reaches the console. With Orbit Store 0.0.3 or later, **Stream & install** installs a finished computer download straight from your computer, without a copy on the PS4. [Guide](guides/orbit-zero.md#stream--install)
 - **Recover an interrupted transfer.** Resume after a connection failure, reconnect your PS4 at its new address, or remove a stuck entry while keeping its files. [Compare the recovery choices](guides/orbit-zero.md#pause-reconnect-and-clean-up)
@@ -176,13 +179,13 @@ Download on your computer and send games to your PS4 over your home network. **W
 
 ## Beta status
 
-**Orbit Store for PS4 is an experimental beta.** [Download the latest release](https://github.com/saawant12/orbit-store-ps4/releases/latest). Release **0.1.0** has these version numbers:
+**Orbit Store for PS4 is an experimental beta.** [Download the latest release](https://github.com/saawant12/orbit-store-ps4/releases/latest). Release **0.2.0** has these version numbers:
 
 | Component | Version |
 | --- | --- |
-| Orbit Store download service and browser interface (`orbit_store.elf`) | **0.1.0** |
-| Native TV app (`orbit_store_ps4.pkg`) | **0.1.0** |
-| Orbit Zero for Mac, Windows and Linux (`Orbit-Zero-1.9.6-*`) | **1.9.6** |
+| Orbit Store download service and browser interface (`orbit_store.elf`) | **0.2.0** |
+| Native TV app (`orbit_store_ps4.pkg`) | **0.2.0** |
+| Orbit Zero for Mac, Windows and Linux (`Orbit-Zero-1.9.7-*`) | **1.9.7** |
 
 The TV app’s title ID is `ORBT00002` and the browser icon’s is `ORBT00001`. These are homebrew project IDs, not official Sony ones.
 
@@ -196,7 +199,7 @@ The [release downloads](https://github.com/saawant12/orbit-store-ps4/releases/la
 
 - [orbit_store_ps4.pkg](https://github.com/saawant12/orbit-store-ps4/releases/latest/download/orbit_store_ps4.pkg), the native TV app with the download service and elfldr, and [its checksum](https://github.com/saawant12/orbit-store-ps4/releases/latest/download/orbit_store_ps4.pkg.sha256).
 - [orbit_store.elf](https://github.com/saawant12/orbit-store-ps4/releases/latest/download/orbit_store.elf), the download service and browser interface, and [its checksum](https://github.com/saawant12/orbit-store-ps4/releases/latest/download/orbit_store.elf.sha256).
-- The `Orbit-Zero-1.9.6-*` packages for Mac, Windows and Linux, in ARM64 and x64 builds, with `SHA256SUMS`. Follow the [desktop installation guide](guides/orbit-zero-installation.md).
+- The `Orbit-Zero-1.9.7-*` packages for Mac, Windows and Linux, in ARM64 and x64 builds, with `SHA256SUMS`. Follow the [desktop installation guide](guides/orbit-zero-installation.md).
 - The complete source and licence bundle for the service, browser interface, TV app and their open-source components, with build instructions.
 
 Follow the [verification commands](guides/getting-started.md#verify-the-ps4-files), then the installation steps for your version.
@@ -231,11 +234,11 @@ Before queuing a game, check **Free now**, **Unfinished downloads** and **After 
 
 Open **Library** to see the games installed on your PS4. Search by name, title ID or path and filter by status, location or format. Orbit reads the games from the console itself and keeps the list up to date automatically. Library works independently of your download-source choices.
 
-Open **Library → Files** to browse drives and manage files: copy, move, rename, delete, unpack and install. See the [Files guide](guides/files.md). Library and Files also work in Orbit Zero on a paired computer. Orbit doesn’t start or uninstall games.
+Open **Library → Files** to browse drives and manage files: copy, move, rename, delete, unpack and install. See the [Files guide](guides/files.md). Library and Files also work in Orbit Zero on a paired computer. Orbit doesn’t start games; it uninstalls one only when you choose it in [Free up space](guides/downloads.md#free-up-space).
 
 ## Finding and saving games
 
-In **Browse**, combine source, format, genre, tag, region and download-size filters, then choose a sort order. **Release date (newest first)** is the default; games without a recorded date follow alphabetically. **Reset filters** restores this order.
+In **Browse**, combine source, format, genre, tag, region and download-size filters, then choose a sort order. **Release date (newest first)** is the default; **Recently added** shows the games added to the catalogue most recently first. Games without a recorded date follow alphabetically. **Reset filters** restores this order.
 
 Open a game’s details and choose **Add to favourites**, or use the favourite shortcut on a selected game in the TV app: **Square** in Store, **Triangle** in Crossbar, Cinema or Panorama. Favourites are shared between the console and paired devices.
 
@@ -287,7 +290,7 @@ When reporting a bug, follow the [bug report format](.github/ISSUE_TEMPLATE/bug_
 
 - **The TV app says Orbit didn’t start:** turn on GoldHEN’s payload loader, close other apps such as ezRemote and choose **Try again**.
 - **Drive disconnected:** reconnect the same drive. Orbit never switches to internal storage by itself.
-- **Not enough space:** free space on the selected drive before retrying.
+- **Not enough space:** select **Free up space** to delete Orbit’s leftovers or games you choose, or free space on the selected drive yourself before retrying.
 - **Archive.org asks for an account:** [sign in to Archive.org](guides/downloads.md#archiveorg-sign-in), then retry. Signing in can’t bring back a file its provider removed.
 - **Source changed:** keep the partial file until you decide to remove it and start again. Orbit won’t add a different file onto it.
 - **Provider throttling:** let the retry wait finish. Orbit follows the provider’s requested wait.

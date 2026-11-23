@@ -9,7 +9,7 @@ Orbit Zero is Orbit’s app for Mac, Windows and Linux. With your PS4 it can:
 - start Orbit on your PS4 from the computer;
 - keep a PS5 and a PS4 as separate profiles, and switch between them in one click.
 
-**Needs Orbit Store 0.0.2 or later on your PS4 and Orbit Zero 1.9.1 or later on your computer.** Orbit Zero 1.9.6 is attached to the [latest Orbit Store for PS4 release](https://github.com/saawant12/orbit-store-ps4/releases/latest). [Stream & install](#stream--install) needs Orbit Store 0.0.3 or later.
+**Needs Orbit Store 0.0.2 or later on your PS4 and Orbit Zero 1.9.1 or later on your computer.** Orbit Zero 1.9.7 is attached to the [latest Orbit Store for PS4 release](https://github.com/saawant12/orbit-store-ps4/releases/latest). [Stream & install](#stream--install) needs Orbit Store 0.0.3 or later.
 
 - **Installing Orbit Zero for the first time?** Follow [Install Orbit Zero](orbit-zero-installation.md).
 - **PS4 without internet?** Follow [Set up Orbit on a PS4 without internet](orbit-zero-offline-ps4.md).
@@ -74,7 +74,11 @@ For add-ons, check the type, contents and the base game they need before choosin
 
 ### Get everything and game updates
 
-**Needs Orbit Store 0.1.0 on your PS4 and Orbit Zero 1.9.5 or later.** On a PS4 game’s page, **Get everything** shows the same checklist as on the PS4: the game, its newest update and its DLC. In **Library**, Zero shows each game’s installed version, the update labels, the **Updates** filter and **Update all**. The PS4 downloads and installs these itself, so keep Orbit running on it. See [Get everything](downloads.md#get-everything) and [Game updates](library.md#game-updates).
+**Needs Orbit Store 0.1.0 or later on your PS4 and Orbit Zero 1.9.5 or later.** On a PS4 game’s page, **Get everything** shows the same checklist as on the PS4: the game, its newest update and its DLC. In **Library**, Zero shows each game’s installed version, the update labels, the **Updates** filter and **Update all**. The PS4 downloads and installs these itself, so keep Orbit running on it. See [Get everything](downloads.md#get-everything) and [Game updates](library.md#game-updates).
+
+### Free up space and download from links
+
+**Needs Orbit Store 0.2.0 on your PS4 and Orbit Zero 1.9.7 or later.** When a game doesn’t fit on its PS4 drive, Zero offers [Free up space](downloads.md#free-up-space), as on the PS4. For a download that goes through your computer, Zero first checks that it can start, so nothing is deleted for a download that can’t. In Transfers, [Download from links](downloads.md#download-from-your-own-links) and **Replace link** work as on the PS4; your PS4 downloads the files itself.
 
 ## Choose where downloads run
 

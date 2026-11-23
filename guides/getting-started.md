@@ -1,6 +1,6 @@
 # Get started with Orbit Store
 
-**For Orbit Store 0.1.0 for PS4 (beta).** Tested on a PS4 on firmware 12.00 with GoldHEN. 0.0.3 added support for firmware 13.52 and 14.00, which hasn’t been tested on a console yet.
+**For Orbit Store 0.2.0 for PS4 (beta).** Tested on a PS4 on firmware 12.00 with GoldHEN. 0.0.3 added support for firmware 13.52 and 14.00, which hasn’t been tested on a console yet.
 
 Orbit runs on your PS4. Use the TV with your controller, or pair a phone or computer to manage the same catalogue and download queue. Files go to the PS4's selected storage.
 
@@ -24,7 +24,7 @@ The Games and browser versions share the same downloads, favourites and service 
 - Enough writable storage.
 - A phone or computer on the same local network, if you want to control Orbit from one.
 
-The current PS4 release is **Orbit Store 0.1.0**: **native app 0.1.0** with **download service 0.1.0**, plus **Orbit Zero 1.9.6** for your computer.
+The current PS4 release is **Orbit Store 0.2.0**: **native app 0.2.0** with **download service 0.2.0**, plus **Orbit Zero 1.9.7** for your computer.
 
 The instructions below use the default Store layout. If you choose another interface, check its settings entry under Appearance.
 
@@ -34,9 +34,9 @@ Choose the app you use; you do not need to download every asset.
 
 | How you use Orbit | What to download |
 | --- | --- |
-| Native PS4 app | **`orbit_store_ps4.pkg`** and its checksum. Native app **0.1.0** already includes service **0.1.0** and elfldr. The app starts the service itself; nothing has to run first. |
+| Native PS4 app | **`orbit_store_ps4.pkg`** and its checksum. Native app **0.2.0** already includes service **0.2.0** and elfldr. The app starts the service itself; nothing has to run first. |
 | Service started separately through an ELF loader | **`orbit_store.elf`** and its checksum. Send it once to an ELF loader on port 9021; Orbit then keeps its own copies current. |
-| Orbit Zero | The `Orbit-Zero-1.9.6-*` package for your computer. Zero gets Orbit for PS4 from the release and starts it with **Start Orbit on PS4**, so you don't need to download the ELF. The TV app is optional if you also want TV controls. |
+| Orbit Zero | The `Orbit-Zero-1.9.7-*` package for your computer. Zero gets Orbit for PS4 from the release and starts it with **Start Orbit on PS4**, so you don't need to download the ELF. The TV app is optional if you also want TV controls. |
 
 Installing a package or uploading an ELF does not replace an older service that is already running. Stop it with **Stop Orbit to restart** before starting the updated copy. In **Diagnostics & about**, the current versions are **native app 0.0.3** and **download service 0.0.3**. Later releases may update one without the other, so the two numbers can differ. Keep your pairing, settings and queue in place.
 
@@ -117,7 +117,7 @@ Orbit Zero has its own TorBox, Archive.org and Vikingfile sign-ins on the comput
 
 ## Games and DLC
 
-The catalogue has **1,734 PS4 games** with **1,851 download options** from Archive.org, Vikingfile and AkiraBox.
+The catalogue has **1,739 PS4 games** with **1,856 download options** from Archive.org, Vikingfile and AkiraBox.
 
 Downloading a PKG or FPKG saves a package to your selected drive. Choose **Install on PS4** on the finished download to hand it to the console's package installer. See [installing games](install-games.md).
 

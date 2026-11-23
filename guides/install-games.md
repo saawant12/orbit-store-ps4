@@ -1,6 +1,6 @@
 # Install games without leaving Orbit
 
-**For Orbit Store 0.1.0 for PS4.**
+**For Orbit Store 0.2.0 for PS4.**
 
 ## Install a downloaded game
 
@@ -15,7 +15,7 @@ The PS4 installs to its own installation storage. Choosing a download drive does
 
 To delete a downloaded package after it installs, turn on **App settings → Storage & cleanup → Installed packages → Delete packages after installing**. It’s off by default. If installation fails or the file changed after it was checked, Orbit keeps it. Archive cleanup has its own setting.
 
-Installation needs a jailbroken PS4 with GoldHEN. It doesn’t change a game’s firmware, licence or jailbreak requirements. Orbit doesn’t start or uninstall games.
+Installation needs a jailbroken PS4 with GoldHEN. It doesn’t change a game’s firmware, licence or jailbreak requirements. Orbit doesn’t start games, and uninstalls one only when you choose it in [Free up space](downloads.md#free-up-space). If Orbit kept the package of a game you uninstalled there, **Install** is offered for it in **Downloads** again.
 
 ## Install from Files
 

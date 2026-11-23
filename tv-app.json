@@ -1,9 +1,9 @@
 {
   "name": "Orbit Store for TV",
   "filename": "orbit_store_ps4.pkg",
-  "version": "0.1.0",
-  "url": "https://github.com/saawant12/orbit-store-ps4/releases/download/v0.1.0/orbit_store_ps4.pkg",
-  "checksum": "8f0284d3abd311c199e83b1753af2806bd39f21b57710347c86de5e163521b12",
-  "size": 137297920,
-  "serviceVersion": "0.1.0"
+  "version": "0.2.0",
+  "url": "https://github.com/saawant12/orbit-store-ps4/releases/download/v0.2.0/orbit_store_ps4.pkg",
+  "checksum": "3f7b3df9a95579f2fdb64ec63faa50f484d2e5984716315525c781fc4acaaa48",
+  "size": 138674176,
+  "serviceVersion": "0.2.0"
 }

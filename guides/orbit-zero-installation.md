@@ -2,7 +2,7 @@
 
 Orbit Zero downloads games on your computer and sends them to your PS4 over your home network. Wi-Fi and Ethernet both work, including when one device uses Wi-Fi and the other uses a cable. The PS4 doesn’t need internet access for computer downloads.
 
-This guide covers **Orbit Zero 1.9.6** with **Orbit Store for PS4 0.0.2** or later. Get the files from the [Orbit Store for PS4 release](https://github.com/saawant12/orbit-store-ps4/releases/latest).
+This guide covers **Orbit Zero 1.9.7** with **Orbit Store for PS4 0.0.2** or later. Get the files from the [Orbit Store for PS4 release](https://github.com/saawant12/orbit-store-ps4/releases/latest).
 
 - **Installing for the first time?** Follow this guide in order: choose and verify your download, install it on your computer, then connect your PS4.
 - **Already using Orbit Zero?** Go to [Update Orbit Zero](#update-orbit-zero).
@@ -13,12 +13,12 @@ This guide covers **Orbit Zero 1.9.6** with **Orbit Store for PS4 0.0.2** or lat
 
 | Computer | File |
 | --- | --- |
-| Mac with an Apple M-series chip | `Orbit-Zero-1.9.6-mac-arm64.dmg` |
-| Mac with an Intel processor | `Orbit-Zero-1.9.6-mac-x64.dmg` |
-| Windows on Intel or AMD | `Orbit-Zero-1.9.6-win-x64.exe` (installer) or `Orbit-Zero-1.9.6-win-x64.zip` (portable) |
-| Windows on ARM, including Snapdragon | `Orbit-Zero-1.9.6-win-arm64.exe` (installer) or `Orbit-Zero-1.9.6-win-arm64.zip` (portable) |
-| Ubuntu or Debian on Intel or AMD | `Orbit-Zero-1.9.6-linux-amd64.deb` |
-| Ubuntu or Debian on ARM64 | `Orbit-Zero-1.9.6-linux-arm64.deb` |
+| Mac with an Apple M-series chip | `Orbit-Zero-1.9.7-mac-arm64.dmg` |
+| Mac with an Intel processor | `Orbit-Zero-1.9.7-mac-x64.dmg` |
+| Windows on Intel or AMD | `Orbit-Zero-1.9.7-win-x64.exe` (installer) or `Orbit-Zero-1.9.7-win-x64.zip` (portable) |
+| Windows on ARM, including Snapdragon | `Orbit-Zero-1.9.7-win-arm64.exe` (installer) or `Orbit-Zero-1.9.7-win-arm64.zip` (portable) |
+| Ubuntu or Debian on Intel or AMD | `Orbit-Zero-1.9.7-linux-amd64.deb` |
+| Ubuntu or Debian on ARM64 | `Orbit-Zero-1.9.7-linux-arm64.deb` |
 
 Not sure which one you need? On a Mac, check **Apple menu → About This Mac**. On Windows, check **Settings → System → About → System type**. On Linux, run `uname -m`: `x86_64` needs AMD64/x64; `aarch64` needs ARM64. In a virtual machine, choose the build for the guest operating system. 32-bit x86 isn’t supported.
 
@@ -33,19 +33,19 @@ Download **`SHA256SUMS`** from the same release as your desktop package. It has 
 **macOS, in Terminal:**
 
 ```sh
-shasum -a 256 "$HOME/Downloads/Orbit-Zero-1.9.6-mac-arm64.dmg"
+shasum -a 256 "$HOME/Downloads/Orbit-Zero-1.9.7-mac-arm64.dmg"
 ```
 
 **Windows, in PowerShell:**
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\Orbit-Zero-1.9.6-win-x64.zip" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\Orbit-Zero-1.9.7-win-x64.zip" -Algorithm SHA256
 ```
 
 **Linux, in a terminal:**
 
 ```sh
-sha256sum "$HOME/Downloads/Orbit-Zero-1.9.6-linux-amd64.deb"
+sha256sum "$HOME/Downloads/Orbit-Zero-1.9.7-linux-amd64.deb"
 ```
 
 Open `SHA256SUMS` in a text editor and find the line with the **exact same filename**. Its 64-character checksum must match your result; uppercase and lowercase letters are equivalent. If it differs, download the file again before installing. You only need the package for your computer, not every file listed in `SHA256SUMS`.
@@ -98,24 +98,24 @@ Use the `.deb` installer. It adds Orbit Zero to your application menu and sets u
 
    ```sh
    # Intel / AMD 64-bit
-   sudo apt install "$HOME/Downloads/Orbit-Zero-1.9.6-linux-amd64.deb"
+   sudo apt install "$HOME/Downloads/Orbit-Zero-1.9.7-linux-amd64.deb"
    ```
 
    ```sh
    # ARM64
-   sudo apt install "$HOME/Downloads/Orbit-Zero-1.9.6-linux-arm64.deb"
+   sudo apt install "$HOME/Downloads/Orbit-Zero-1.9.7-linux-arm64.deb"
    ```
 
 3. Enter your Linux password if asked. The installer needs administrator access; characters don’t appear while you type the password. Internet access may be needed to install dependencies.
 4. Open **Orbit Zero** from your application menu. Don’t run the app itself with `sudo`.
 
-**Saved the installer somewhere else?** Open a terminal in that folder and put `./` before its filename, for example `sudo apt install ./Orbit-Zero-1.9.6-linux-arm64.deb`. Without `./` or a full path, apt searches its package lists and reports **Unable to locate package**. If `uname -m` says `aarch64`, use the ARM64 installer; AMD64 is for Intel and AMD computers.
+**Saved the installer somewhere else?** Open a terminal in that folder and put `./` before its filename, for example `sudo apt install ./Orbit-Zero-1.9.7-linux-arm64.deb`. Without `./` or a full path, apt searches its package lists and reports **Unable to locate package**. If `uname -m` says `aarch64`, use the ARM64 installer; AMD64 is for Intel and AMD computers.
 
 **Keyring prompts.** When pairing or reconnecting, Ubuntu may ask you to unlock your login keyring, which stores the pairing securely.
 
 ### Other Linux systems or the portable archive
 
-`Orbit-Zero-1.9.6-linux-x64.tar.gz` and `Orbit-Zero-1.9.6-linux-arm64.tar.gz` contain the portable app. Compatibility can vary between distributions; on Ubuntu or Debian, use the installer above.
+`Orbit-Zero-1.9.7-linux-x64.tar.gz` and `Orbit-Zero-1.9.7-linux-arm64.tar.gz` contain the portable app. Compatibility can vary between distributions; on Ubuntu or Debian, use the installer above.
 
 Extract the **whole archive** onto the Linux drive in a path without spaces or brackets, such as `~/orbit-zero`. From the folder with the app, run:
 
